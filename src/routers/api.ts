@@ -9,7 +9,7 @@ const router = Router();
 
 router.post("/upload", upload.single('file'), apiController.upload);
 
-router.post('/product', apiController.createProduct);
+router.post('/update', apiController.update);
 
 export default router;
 
